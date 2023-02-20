@@ -1,0 +1,111 @@
+/*.maincontainer {
+    display: flex;
+
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: stretch;
+    gap: 5px
+
+
+    grid-column-start: ;
+    grid-row-start: ;
+}
+*/
+
+
+
+
+.main-container {
+    display: grid;
+    
+    grid-auto-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: stretch;
+    }
+
+@media (max-width: 320px) {
+    .main-container {  
+        display: grid;
+        grid-template-columns: 1fr;
+        }
+    }
+
+
+@media (min-width: 321px) and (max-width: 768px) {
+    .main-container {
+        display: grid;
+        
+        grid-template-columns: 1fr 1fr;  
+        }
+    }
+
+
+@media (min-width: 769px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);  
+        }
+} 
+
+
+
+
+.roja{
+background-color: red;
+width: 100px;
+
+}
+
+.azul {
+background-color: blue;
+width: 100px;
+}
+
+.lila {
+    background-color: blueviolet;
+    width: 100px;
+}
+
+.amarillo { 
+    background-color: yellow;
+    width: 100px;
+}
+
+.naranja {
+    background-color: orange;
+    width: 100px;
+}
+
+.verde { 
+    background-color: green;
+    width: 100px;
+}
+
+.negro { 
+    background-color: black;
+    width: 100px;
+}
+
+.rosa { 
+    background-color: pink;
+    width: 100px;
+}
+
+.gris { 
+    background-color: grey;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
